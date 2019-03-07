@@ -1,0 +1,8 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: azeem_wedding_dev
+  # database: gehna_fabricator
+  pool: 5
+  username: anbu
+  password: password
