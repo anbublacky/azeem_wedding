@@ -52,10 +52,10 @@ if($('#loded').length>0) {
 
 $('#loded').vegas({
     slides: [
-        { src: 'img/accommodation-bg.jpg' },
-        { src: 'img/the-heart-welcome-bg.jpg' },
-        { src: 'img/the-heart-welcome-bg-2.jpg' },
-         { src: 'img/the-heart-welcome-bg-3.jpg' }
+        { src: 'accommodation-bg.jpg' },
+        { src: 'the-heart-welcome-bg.jpg' },
+        { src: 'the-heart-welcome-bg-2.jpg' },
+         { src: 'the-heart-welcome-bg-3.jpg' }
     ],
     animation: [ 'kenburnsUp', 'kenburnsDown', 'kenburnsLeft', 'kenburnsRight' ]
 });
@@ -105,8 +105,8 @@ $('.the-heart-slider').owlCarousel({
 	autoplayTimeout:4000,
 	animateOut: 'fadeOut',
   	animateIn: 'fadeIn',
-    navText: ["<img src='img/slidernav-left.png' alt='Slider Nav' />",
-      "<img src='img/slidernav-right.png' alt='Slider Nav' />"],
+    navText: ["<img src='slidernav-left.png' alt='Slider Nav' />",
+      "<img src='slidernav-right.png' alt='Slider Nav' />"],
     navigation: true,
 
 });
@@ -144,7 +144,7 @@ if($('.the-heart-gift-registy-gallery').length>0) {
         }
     }
 });
-	
+
 }
 
 /*--------------------------------------------------------------
@@ -178,7 +178,7 @@ if($('.the-heart-groomsman-slider').length>0) {
         }
     }
 });
-	
+
 }
 /*--------------------------------------------------------------
 7.THE HEART GROOMSMAN SLIDER 2 JS JS
@@ -211,7 +211,7 @@ if($('.the-heart-groomsman-slider-2').length>0) {
         }
     }
 });
-	
+
 }
 
 /*--------------------------------------------------------------
@@ -290,10 +290,10 @@ if($('#heart_countdown').length > 0) {
   11. CONTACT FORM INIT
 --------------------------------------------------------------*/
 $( "#heart-rsvp-form" ).on( "submit", function( e ) {
-        
+
   //Stop form submission & check the validation
   e.preventDefault();
-  
+
   // Variable declaration
   var error       = false,
     name          = $('#the_heart_name').val(),
@@ -302,7 +302,7 @@ $( "#heart-rsvp-form" ).on( "submit", function( e ) {
     mail_fail     = $('#mail_fail'),
     mail_success  = $('#mail_success'),
     submit_btn    = $('#rsvp_submit');
-  
+
 // Form field validation
   if(name.length <= 1){
       var error = true;
@@ -345,7 +345,7 @@ $( "#heart-rsvp-form" ).on( "submit", function( e ) {
       });
 
   }
-});   
+});
 
 
 /*--------------------------------------------------------------
@@ -360,7 +360,7 @@ if ($('.the-heart-main-meun ul li a').length > 0) {
 
 	    if(href.length > 1 && hrefFirst === '#' && $(href).offset()){
 	      var offsetTop = href === "#" ? 0 : $(href).offset().top - 0;
-	      $('html, body').stop().animate({ 
+	      $('html, body').stop().animate({
 	          scrollTop: offsetTop,
 	      }, 500, "easeInOutCirc");
 	      e.preventDefault();
@@ -388,7 +388,7 @@ $('#prelaoder').fadeOut(450);
 
 	var $container = $('.the-heart-gallery-grid'),
 	colWidth = function () {
-	var w = $container.width(), 
+	var w = $container.width(),
 	  columnNum = 1,
 	  columnWidth = 0;
 	if (w > 1200) {
@@ -451,8 +451,8 @@ $('#prelaoder').fadeOut(450);
 	$container.isotope( options );
 	}
 	return false;
-	}); 
-	
+	});
+
 	} // End Lenght
 
 
@@ -464,7 +464,7 @@ if($('.the-heart-journal-grid').length > 0) {
 
 	var $container = $('.the-heart-journal-grid'),
 	colWidth = function () {
-	var w = $container.width(), 
+	var w = $container.width(),
 	  columnNum = 1,
 	  columnWidth = 0;
 	if (w > 1200) {
@@ -527,7 +527,7 @@ if($('.the-heart-journal-grid').length > 0) {
 	$container.isotope( options );
 	}
 	return false;
-	}); 
+	});
 	} // End Lenght
 
 

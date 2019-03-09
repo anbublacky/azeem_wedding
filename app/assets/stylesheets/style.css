@@ -1,10 +1,10 @@
 /*------------------------------------------------------------------
-.______    __  ___   ___  __   _______  ___________    ____ 
-|   _  \  |  | \  \ /  / |  | |   ____||   ____\   \  /   / 
-|  |_)  | |  |  \  V  /  |  | |  |__   |  |__   \   \/   /  
-|   ___/  |  |   >   <   |  | |   __|  |   __|   \_    _/   
-|  |      |  |  /  .  \  |  | |  |____ |  |        |  |     
-| _|      |__| /__/ \__\ |__| |_______||__|        |__|     
+.______    __  ___   ___  __   _______  ___________    ____
+|   _  \  |  | \  \ /  / |  | |   ____||   ____\   \  /   /
+|  |_)  | |  |  \  V  /  |  | |  |__   |  |__   \   \/   /
+|   ___/  |  |   >   <   |  | |   __|  |   __|   \_    _/
+|  |      |  |  /  .  \  |  | |  |____ |  |        |  |
+| _|      |__| /__/ \__\ |__| |_______||__|        |__|
 
 
 @charset "utf-8";
@@ -14,7 +14,7 @@
 Project:    The heart
 Version:    0.1
 Last change:    17-5-2017
-Primary use:    The Heart Wedding Template  
+Primary use:    The Heart Wedding Template
 
 
 ================== Font Famil Used =================
@@ -37,15 +37,15 @@ Section Description:    14px/1 'Poppins', sans-serif;
 
 /*--------------------------------------------------------------============================================================
 
-1. The Heart Typography 
+1. The Heart Typography
 2. The Heart Main Menu
 3. The Heart Welcome Section
-4. The Heart Introduction Section 
+4. The Heart Introduction Section
 5. The Heart Memory
-6. The Heart Wedding Palace 
-7. The Heart Attending Content 
+6. The Heart Wedding Palace
+7. The Heart Attending Content
 8. The Heart Lovely Gallery
-9. The Heart jurnal 
+9. The Heart jurnal
 10. The Heart Footer
 11. The Heart magnific Pop Up Init
 12. The Heart Owl Carousel Custom
@@ -53,16 +53,16 @@ Section Description:    14px/1 'Poppins', sans-serif;
 
 
 	==================The Heart Inner Page Start==============
-1. The Heart Time Line Page 
+1. The Heart Time Line Page
 2. The Heart His Story
 3. The Heart Her Story
 4. The Heart Groomsman And Bride Maid
 5. The Heart Gift Registry
-6. The Heart Engagement Inner Page 
-7. The Heart Accommodation Inner Page 
-8. The Heart RSVP  
-9. The Heart Journal With Side Bar 
-10.The Heart Single Journal page 
+6. The Heart Engagement Inner Page
+7. The Heart Accommodation Inner Page
+8. The Heart RSVP
+9. The Heart Journal With Side Bar
+10.The Heart Single Journal page
 
 
 
@@ -70,8 +70,8 @@ Section Description:    14px/1 'Poppins', sans-serif;
 =============================================================--------------------------------------------------------------*/
 
 
-/*====================================================================== 
-		1. The Heart Typography 
+/*======================================================================
+		1. The Heart Typography
 ====================================================================================*/
 
 body {
@@ -92,8 +92,8 @@ iframe{
 	border: none;
 }
 a, b, div, ul, li{
-	-webkit-tap-highlight-color: rgba(0,0,0,0); 
-	-webkit-tap-highlight-color: transparent; 
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
 	-moz-outline-: none;
 }
 a,
@@ -141,7 +141,7 @@ ul {
 h1,h2,h3,h4,h5,h6,a,ul,li{
 	line-height: 1;
 }
-.clear-both:before, 
+.clear-both:before,
 .clear-both:after{
 	display: table;
 	content: "";
@@ -261,41 +261,41 @@ h1,h2,h3,h4,h5,h6,a,ul,li{
 	width: 100%;
 	z-index: 999999999999;
 	background-color: #FCF5E4;
-	background-image: url(img/preloader.gif);
+	background-image: url(/assets/preloader.gif);
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 
 /* Body Background List */
 body.the-heart-default-body {
-	background-image: url(img/the-heart-body-bg.png);
+	background-image: url(/assets/the-heart-body-bg.png);
 }
 body.the-heart-journal-body-bg {
-	background-image: url(img/journal-body-bg.png);
+	background-image: url(/assets/journal-body-bg.png);
 }
 body.the-heart-timeline-body {
-	background-image: url(img/timeline-body-bg.jpg);
+	background-image: url(/assets/timeline-body-bg.jpg);
 }
 body.the-heart-rsvp-body {
-	background-image: url(img/rsvp-body-bg.jpg);
+	background-image: url(/assets/rsvp-body-bg.jpg);
 }
 body.the-heart-his-story-body {
-	background-image: url(img/his-storey-bg.jpg);
+	background-image: url(/assets/his-storey-bg.jpg);
 }
 body.the-heart-her-story-body {
-	background-image: url(img/her-Story-bg.png);
+	background-image: url(/assets/her-Story-bg.png);
 }
 body.the-heart-gift-registry-body {
-	background-image: url(img/gift-registry-body.jpg);
+	background-image: url(/assets/gift-registry-body.jpg);
 }
 body.the-heart-engagement-body {
-	background-image: url(img/engagement-storey-body.png);
+	background-image: url(/assets/engagement-storey-body.png);
 }
 body.the-heart-bridemaid-body {
-	background-image: url(img/bride-maid-body-bg.jpg);
+	background-image: url(/assets/bride-maid-body-bg.jpg);
 }
 body.the-heart-groomsman-body {
-	background-image: url(img/groomsman-body-bg.jpg);
+	background-image: url(/assets/groomsman-body-bg.jpg);
 }
 
 /* Graet Vides Fonts */
@@ -316,7 +316,7 @@ h1,h2,h3,h4 {
 }
 
 /*==============================================================
-			The Heart Start 
+			The Heart Start
 =========================================================================================*/
 
 
@@ -547,7 +547,7 @@ header.the-heart-menu-and-logo-section.sticky-menu ul.dropdown li a{
 	left: 0;
 	height: 230px;
 	width: 100%;
-	background-image: url(img/floral-top.png);
+	background-image: url(/assets/floral-top.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -557,7 +557,7 @@ header.the-heart-menu-and-logo-section.sticky-menu ul.dropdown li a{
 	top: inherit;
 	bottom: 0;
 	height: 249px;
-	background-image: url(img/floral-bottom.png);
+	background-image: url(/assets/floral-bottom.png);
 }
 .the-heart-welcome-content {
 	position: relative;
@@ -590,12 +590,12 @@ header.the-heart-menu-and-logo-section.sticky-menu ul.dropdown li a{
 	left: 0;
 	height: 20px;
 	width: 100%;
-	background-image: url(img/floeal-txt-bg-1.png);
+	background-image: url(/assets/floeal-txt-bg-1.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 .the-heart-floral-txt:after {
-	background-image: url(img/floeal-txt-bg-2.png);
+	background-image: url(/assets/floeal-txt-bg-2.png);
 	top: inherit;
 	bottom: -20px;
 }
@@ -1291,12 +1291,12 @@ canvas {
     transform: translate(0, -1000%) rotate(45deg);
   }
 }
-/*============================================================================== 
-			4. The Heart Introduction Section 
+/*==============================================================================
+			4. The Heart Introduction Section
 ========================================================================================================================*/
 
 .the-heart-introduction-wraper {
-	background-image: url(img/introduction-floral-bg.png);
+	background-image: url(/assets/introduction-floral-bg.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -1335,19 +1335,19 @@ canvas {
 .the-heart-single-introduction:nth-child(even) .the-heart-intruduction-content-img {
 	text-align: left;
 }
-.the-heart-single-introduction:nth-child(even) .the-heart-intruduction-content-txt {	
+.the-heart-single-introduction:nth-child(even) .the-heart-intruduction-content-txt {
 	text-align: right;
 }
 
 
-/*============================================================================== 
+/*==============================================================================
 			 5. The Heart Memory
 ========================================================================================================================*/
 
 
 .the-heart-memoragble-days-img img {
-	-webkit-mask-image: url(img/mask-img.png);
-	mask-image: url(img/mask-img.png);
+	-webkit-mask-image: url(/assets/mask-img.png);
+	mask-image: url(/assets/mask-img.png);
 	-webkit-mask-repeat: no-repeat;
 	mask-repeat: no-repeat;
 	-webkit-mask-size: 60%;
@@ -1395,7 +1395,7 @@ canvas {
 	left: 50%;
 	height: 100%;
 	width: 61px;
-	background-image: url(img/memorable-days-spearetor.png);
+	background-image: url(/assets/memorable-days-spearetor.png);
 	background-size: 50%;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -1411,8 +1411,8 @@ canvas {
 
 
 
-/*=========================================================================== 
-		6. The Heart Wedding Palace 
+/*===========================================================================
+		6. The Heart Wedding Palace
 =========================================================================================*/
 .the-heart-wedding-venue-section {
 	position: relative;
@@ -1442,7 +1442,7 @@ canvas {
 	left: 0;
 	height: 115px;
 	width: 100%;
-	background-image: url(img/paper-effect--top.png);
+	background-image: url(/assets/paper-effect--top.png);
 	background-repeat: repeat-x;
 	background-position: top center;
 	background-size: contain;
@@ -1451,11 +1451,11 @@ canvas {
 .the-heart-paper-effect-bg:after {
 	top: inherit;
 	bottom: 0;
-	background-image: url(img/paper-effect--bottom.png);
+	background-image: url(/assets/paper-effect--bottom.png);
 	background-position: bottom center;
 }
 .the-heart-wdding-venu-content {
-  background-image: url("img/wedding-palace-inner-bg.jpg");
+  background-image: url("/assets/wedding-palace-inner-bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -1483,7 +1483,7 @@ canvas {
 	left: 0;
 	width: 100%;
 	height: 21px;
-	background-image: url(img/weddin-venue-floral.png);
+	background-image: url(/assets/weddin-venue-floral.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 50%;
@@ -1529,7 +1529,7 @@ canvas {
 
 
 /*=============================================================================
-		7. The Heart Attending Content 
+		7. The Heart Attending Content
 =====================================================================================================*/
 
 
@@ -1542,7 +1542,7 @@ canvas {
   z-index: 0;
 }
 .the-heart-attending-content::before {
-  background-image: url("img/1.png");
+  background-image: url("/assets/1.png");
   background-repeat: no-repeat;
   content: "";
   height: 118px;
@@ -1552,7 +1552,7 @@ canvas {
   width: 293px;
 }
 .the-heart-attending-content::after {
-  background-image: url("img/2.png");
+  background-image: url("/assets/2.png");
   background-repeat: no-repeat;
   bottom: 0;
   content: "";
@@ -1612,7 +1612,7 @@ canvas {
 	width: calc(100% - 136px);
 	margin: 0 auto;
 	padding: 50px 80px;
-	background-image: url(img/attending-form-bg.png);
+	background-image: url(/assets/attending-form-bg.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-position: center center;
@@ -1640,7 +1640,7 @@ canvas {
 .the-heart-attending-form select {
 	  -moz-appearance: none;
 	  -webkit-appearance: none;
-	  background: rgba(0, 0, 0, 0) url("img/shape.png") no-repeat scroll 100% center;
+	  background: rgba(0, 0, 0, 0) url("/assets/shape.png") no-repeat scroll 100% center;
 	  border: 1px solid #ffffff;
 	  color: #fff;
 	  display: block;
@@ -1652,7 +1652,7 @@ canvas {
 }
 /*.the-heart-attending-form select {
   -moz-appearance: none;
- 
+
   border: 1px solid #333;
   border-radius: 3px;
   box-shadow: none;
@@ -1702,8 +1702,8 @@ canvas {
 
 
 
-/*============================================================================ 
-		8. The Heart Lovely Gallery 
+/*============================================================================
+		8. The Heart Lovely Gallery
 ====================================================================================================*/
 
 .the-heart-lovely-gallery-section {
@@ -1727,16 +1727,16 @@ canvas {
 	padding: 100px 0;
 }
 #the-heart-gallery .the-heart-paper-effect-bg:before {
-	background-image: url(img/paper-effect--top-gallery.png);
+	background-image: url(/assets/paper-effect--top-gallery.png);
 }
 
 #the-heart-gallery .the-heart-paper-effect-bg:after {
-	background-image: url(img/paper-effect--bottom-gallery.png);
+	background-image: url(/assets/paper-effect--bottom-gallery.png);
 }
 
 .the-heart-single-gallery img{
-	-webkit-mask-image: url(img/gallery-mask.png);
-	mask-image: url(img/gallery-mask.png);
+	-webkit-mask-image: url(/assets/gallery-mask.png);
+	mask-image: url(/assets/gallery-mask.png);
 	-webkit-mask-repeat: no-repeat;
 	mask-repeat: no-repeat;
 	-webkit-mask-size: 100% 100%;
@@ -1807,16 +1807,16 @@ canvas {
 
 
 
-/*========================================================================= 
-			9. The Heart jurnal 
+/*=========================================================================
+			9. The Heart jurnal
 ========================================================================================================*/
 
 .the-heart-wedding-jurnal-footer {
 	margin-top: 20px;
 }
 .the-heart-single-journal figure img {
-	mask-image: url(img/journal-img-mask.png);
-	-webkit-mask-image: url(img/journal-img-mask.png);
+	mask-image: url(/assets/journal-img-mask.png);
+	-webkit-mask-image: url(/assets/journal-img-mask.png);
 	mask-repeat: no-repeat;
 	-webkit-mask-repeat: no-repeat;
 	mask-position: center center;
@@ -1855,7 +1855,7 @@ canvas {
 	margin: 0;
 	position: relative;
 	padding-bottom: 3px;
-	margin-bottom: 28px; 
+	margin-bottom: 28px;
 }
 .the-heart-wedding-jurnal-footer h5:before {
 	position: absolute;
@@ -1864,7 +1864,7 @@ canvas {
 	left: 0;
 	width: 100%;
 	height: 13px;
-	background-image: url(img/journal-heading-bg.png);
+	background-image: url(/assets/journal-heading-bg.png);
 	background-repeat: no-repeat;
 	background-size: 50% 100%;
 	background-position: left center;
@@ -1912,8 +1912,8 @@ canvas {
 	margin-bottom: 30px;
 }
 
-/*============================================================================== 
-		10. The Heart Footer 
+/*==============================================================================
+		10. The Heart Footer
 ======================================================================================================*/
 
 .the-heart-footer-section {
@@ -1949,7 +1949,7 @@ canvas {
 	font-weight: 700;
 }
 
-/*============================================================================== 
+/*==============================================================================
 			11. The Heart magnific Pop Up Init
 ========================================================================================================================*/
 
@@ -1968,9 +1968,9 @@ canvas {
 }
 
 
-/* 
+/*
 
-for zoom animation 
+for zoom animation
 uncomment this part if you haven't added this code anywhere else
 
 */
@@ -1980,9 +1980,9 @@ uncomment this part if you haven't added this code anywhere else
 .mfp-with-zoom.mfp-bg {
 	opacity: 0;
 	-webkit-backface-visibility: hidden;
-	-webkit-transition: all 0.3s ease-out; 
-	-moz-transition: all 0.3s ease-out; 
-	-o-transition: all 0.3s ease-out; 
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 }
 
@@ -1993,13 +1993,13 @@ uncomment this part if you haven't added this code anywhere else
 		opacity: 0.8;
 }
 
-.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing .mfp-container,
 .mfp-with-zoom.mfp-removing.mfp-bg {
 	opacity: 0;
 }
 
-/*============================================================================== 
-			12. The Heart Owl Carousel Custom 
+/*==============================================================================
+			12. The Heart Owl Carousel Custom
 ========================================================================================================================*/
 
 
@@ -2023,12 +2023,12 @@ uncomment this part if you haven't added this code anywhere else
 
 
 
-/*======================================================================================= 
-		The Heart Inner Page Start 
+/*=======================================================================================
+		The Heart Inner Page Start
 ============================================================================================================*/
 
-/*================================================================================== 
-		1. The Heart Time Line Page 
+/*==================================================================================
+		1. The Heart Time Line Page
 ========================================================================================================*/
 
 .the-heart-inner-welcome-section div.the-heart-tbl {
@@ -2083,7 +2083,7 @@ uncomment this part if you haven't added this code anywhere else
 .the-heart-timeline-content {
 	padding: 0 15px;
 }
-.the-heart-timeline-content.the-heart-first-para p span { 
+.the-heart-timeline-content.the-heart-first-para p span {
 	padding: 0 0 0 70px;
 }
 .the-heart-timeline-content p {
@@ -2107,7 +2107,7 @@ uncomment this part if you haven't added this code anywhere else
 	transform: translateX(-50%);
 	height: 37px;
 	width: 398px;
-	background-image: url(img/time-line-post-separetor.png);
+	background-image: url(/assets/time-line-post-separetor.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain;
@@ -2115,7 +2115,7 @@ uncomment this part if you haven't added this code anywhere else
 }
 
 
-/*============================================================== 
+/*==============================================================
 		2. The Heart His Story
 =====================================================================================*/
 
@@ -2141,8 +2141,8 @@ uncomment this part if you haven't added this code anywhere else
 	font-weight: 400;
 }
 
-/*=================================================================== 
-		3. The Heart Her Story 
+/*===================================================================
+		3. The Heart Her Story
 ==================================================================================*/
 
 .the-heart-storey-section-v2 {
@@ -2150,7 +2150,7 @@ uncomment this part if you haven't added this code anywhere else
 }
 
 
-/*=============================================================================== 
+/*===============================================================================
 		4. The Heart Groomsman And Bride Maid
 =====================================================================================================*/
 
@@ -2167,8 +2167,8 @@ uncomment this part if you haven't added this code anywhere else
 	text-align: left;
 }
 .the-heart-single-groomsman figure img {
-	-webkit-mask-image: url(img/groomsman-mask.png);
-		mask-image: url(img/groomsman-mask.png);
+	-webkit-mask-image: url(/assets/groomsman-mask.png);
+		mask-image: url(/assets/groomsman-mask.png);
 	-webkit-mask-repeat: no-repeat;
 		mask-repeat: no-repeat;
 	-webkit-mask-size: 100% 100%;
@@ -2234,8 +2234,8 @@ uncomment this part if you haven't added this code anywhere else
 	transform: scale3d(1,1,1);
 }
 
-/*=============================================================================== 
-		5. The Heart Gift Registry 
+/*===============================================================================
+		5. The Heart Gift Registry
 ====================================================================================================*/
 
 
@@ -2266,7 +2266,7 @@ uncomment this part if you haven't added this code anywhere else
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background-image: url(img/gift-shop-logo-bg.png);
+	background-image: url(/assets/gift-shop-logo-bg.png);
 	background-size: 100% 100%;
 	z-index: -1;
 }
@@ -2295,8 +2295,8 @@ uncomment this part if you haven't added this code anywhere else
 }
 
 
-/*============================================================================= 
-		6. The Heart Engagement Inner Page 
+/*=============================================================================
+		6. The Heart Engagement Inner Page
 ==========================================================================================================*/
 
 .the-heart-engagement-section .the-heart-timelinne-heading {
@@ -2316,8 +2316,8 @@ uncomment this part if you haven't added this code anywhere else
 }
 
 
-/*============================================================================= 
-		7. The Heart Accommodation Inner Page 
+/*=============================================================================
+		7. The Heart Accommodation Inner Page
 ===============================================================================================================*/
 
 .the-heart-accommodation-section.section-padding {
@@ -2353,13 +2353,13 @@ uncomment this part if you haven't added this code anywhere else
 	left: 0;
 	width: 100%;
 	height: 49px;
-	background-image: url(img/accommodation-post-bg-top.jpg);
+	background-image: url(/assets/accommodation-post-bg-top.jpg);
 	background-repeat: repeat-x;
 	background-size: contain;
 	background-position: top center;
 }
 .the-heart-accommodation-post-bg:after {
-	background-image: url(img/accommodation-post-bg-bottom.jpg);
+	background-image: url(/assets/accommodation-post-bg-bottom.jpg);
 	top: inherit;
 	bottom: 0;
 	left: 0;
@@ -2379,8 +2379,8 @@ uncomment this part if you haven't added this code anywhere else
 	margin: 0;
 }
 
-/*============================================================================== 
-		8. The Heart RSVP  
+/*==============================================================================
+		8. The Heart RSVP
 =============================================================================================================*/
 
 .the-heart-attending-form-section-inner {
@@ -2414,7 +2414,7 @@ uncomment this part if you haven't added this code anywhere else
 
 .the-heart-attending-form-2 {
 	text-align: center;
-	background-image: url(img/attending-form-bg-inner.png);
+	background-image: url(/assets/attending-form-bg-inner.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -2439,7 +2439,7 @@ uncomment this part if you haven't added this code anywhere else
 .the-heart-attending-form-2 select {
 	-webkit-appearance: none;
 	-moz-appearance: none;
-	  background: rgba(0, 0, 0, 0) url("img/shape.png") no-repeat scroll 100% center;
+	  background: rgba(0, 0, 0, 0) url("/assets/shape.png") no-repeat scroll 100% center;
 	  border: 1px solid #96327D;
 	  color: #96327D;
 	  display: block;
@@ -2466,8 +2466,8 @@ uncomment this part if you haven't added this code anywhere else
 	text-transform: capitalize;
 }
 
-/*===================================================================================== 
-		9. The Heart Journal With Side Bar 
+/*=====================================================================================
+		9. The Heart Journal With Side Bar
 ==============================================================================================================*/
 
 .the-heart-jurnal-sidebar #the-heart-journal-grid {
@@ -2503,7 +2503,7 @@ uncomment this part if you haven't added this code anywhere else
 }
 .the-heart-sidebar-single-element a p:hover {
 	text-shadow: none;
-} 
+}
 .the-heart-sidebar-menu ul li {
 	margin-bottom: 23px;
 }
@@ -2544,8 +2544,8 @@ uncomment this part if you haven't added this code anywhere else
 	color: #96327D;
 }
 
-/*================================================================================ 
-		10. The Heart Single Journal page 
+/*================================================================================
+		10. The Heart Single Journal page
 =================================================================================================*/
 
 .the-heart-married-time {
@@ -2558,7 +2558,7 @@ uncomment this part if you haven't added this code anywhere else
 }
 .the-heart-single-married-time p {
 	margin: 0;
-	background-image: url(img/married-time-bg.png);
+	background-image: url(/assets/married-time-bg.png);
 	width: 200px;
 	height: 51px;
 	background-position: center center;
@@ -2577,7 +2577,7 @@ uncomment this part if you haven't added this code anywhere else
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: top center;
-	background-image: url(img/single-blog-post-paper-bg.jpg);
+	background-image: url(/assets/single-blog-post-paper-bg.jpg);
 	height: 545px;
 	width: 100vw;
 	margin-left: -50vw;
@@ -2596,7 +2596,7 @@ uncomment this part if you haven't added this code anywhere else
 	left: 0;
 	width: 100%;
 	height: 45px;
-	background-image: url(img/journal-post-paper-top.png);
+	background-image: url(/assets/journal-post-paper-top.png);
 	background-repeat: repeat-x;
 	background-size: contain;
 	background-position: top center;
@@ -2604,7 +2604,7 @@ uncomment this part if you haven't added this code anywhere else
 .the-heart-blog-post-image:after {
 	top: inherit;
 	bottom: 0;
-	background-image: url(img/journal-post-paper-bottom.png);
+	background-image: url(/assets/journal-post-paper-bottom.png);
 	background-position: bottom center;
 	height: 42px;
 }
@@ -2640,7 +2640,7 @@ uncomment this part if you haven't added this code anywhere else
 	content: "";
 	bottom: 0;
 	left: 0;
-	background-image: url(img/jurnal-post-separetor.png);
+	background-image: url(/assets/jurnal-post-separetor.png);
 	width: 100%;
 	height: 38px;
 	background-repeat: no-repeat;
@@ -2657,7 +2657,7 @@ uncomment this part if you haven't added this code anywhere else
 }
 .the-heart-simple-lsit li:last-child {
 	margin: 0;
-} 
+}
 .the-heart-simple-lsit li:before {
 	position: absolute;
 	content: "\f111";
@@ -2718,7 +2718,7 @@ uncomment this part if you haven't added this code anywhere else
 	content: "";
 	bottom: 0;
 	left: 0;
-	background-image: url(img/jurnal-post-separetor.png);
+	background-image: url(/assets/jurnal-post-separetor.png);
 	width: 100%;
 	height: 38px;
 	background-repeat: no-repeat;
@@ -2817,19 +2817,19 @@ uncomment this part if you haven't added this code anywhere else
 	font-weight: 300;
 }
 .the-heart-comment-form input:not([type="submit"])::-moz-placeholder ,
-.the-heart-comment-form textarea::-moz-placeholder { 
+.the-heart-comment-form textarea::-moz-placeholder {
 	color: #96327D;
 	font-size: 0.778em;
 	font-weight: 300;
 }
 .the-heart-comment-form input:not([type="submit"]):-ms-input-placeholder ,
-.the-heart-comment-form textarea:-ms-input-placeholder { 
+.the-heart-comment-form textarea:-ms-input-placeholder {
 	color: #96327D;
 	font-size: 0.778em;
 	font-weight: 300;
 }
-.the-heart-comment-form input:not([type="submit"]):-moz-placeholder , 
-.the-heart-comment-form textarea:-moz-placeholder { 
+.the-heart-comment-form input:not([type="submit"]):-moz-placeholder ,
+.the-heart-comment-form textarea:-moz-placeholder {
 	color: #96327D;
 	font-size: 0.778em;
 	font-weight: 300;
