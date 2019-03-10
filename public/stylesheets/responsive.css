@@ -27,7 +27,7 @@ ul.blog-page {
   width: 80%;
 }
 .the-heart-wdding-venu-content {
-  width: calc(100% - 0px);
+  width: calc(100% - 0px) !important;
 }
 .the-heart-attending-content {
   width: 100%;
