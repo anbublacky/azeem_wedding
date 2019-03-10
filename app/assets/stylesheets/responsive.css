@@ -37,6 +37,12 @@ ul.blog-page {
 }
 .the-heart-welcome-tbl-c {
   width: 80%;
+  top: 60% !important;
+}
+
+.the-heart-single-introduction:nth-child(even) .the-heart-spilt-container {
+  float: none !important;
+  width: 100% !important;
 }
 
 }
